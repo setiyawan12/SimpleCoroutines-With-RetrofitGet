@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         btn1.setOnClickListener {
             startActivity(Intent(this,GetDataActivity::class.java))
         }
+        btn2.setOnClickListener {
+            startActivity(Intent(this,GetByIdActivity::class.java))
+        }
     }
 }

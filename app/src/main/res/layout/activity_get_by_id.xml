@@ -7,17 +7,25 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_margin="10dp"
-    tools:context=".MainActivity">
+    tools:context=".GetByIdActivity">
+
+    <EditText
+        android:id="@+id/number_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number"
+        android:textAlignment="center"/>
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GET"/>
-    <Button
-        android:id="@+id/btn2"
+    <TextView
+        android:id="@+id/tv_hasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="By Id"/>
+        android:text="Hasil"/>
 
 
 </LinearLayout>
